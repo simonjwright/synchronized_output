@@ -1,0 +1,17 @@
+name = "test"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Simon Wright"]
+maintainers = ["Simon Wright <simon@pushface.org>"]
+maintainers-logins = ["simonjwright"]
+
+project-files = ["ivp.gpr"]
+
+executables = ["ivp"]
+
+[[depends-on]]
+synchronized_output = "*"
+
+[[pins]]
+synchronized_output = { path = '..' }
